@@ -5,7 +5,7 @@
         <div class="mb-4">
             <label for="task" class="form-label">Tarefa</label>
             <input type="text" class="form-control" id="task" placeholder="Digite a tarefa a 
-ser realizada" ngModel name="task">
+ser realizada" ngModel name="task" required>
             <small *ngIf="taskForm.invalid && taskForm.dirty" class="text-danger">Campo
                 Obrigatório.</small>
                 
